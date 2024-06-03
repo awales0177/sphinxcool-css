@@ -1,6 +1,6 @@
 # sphinxcool-css
 
-Creates a nice look for displaying tables and in line code
+Creates a nice look for display to use in the sphinxawesome_theme for tables and inline code
 
 
 
