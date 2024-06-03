@@ -1,0 +1,103 @@
+/* _static/custom.css for sphinxawesome_theme */
+.mr-2 {
+    width: 30px;  /* Adjust this value to resize the logo */
+    height: auto;  /* Ensures the aspect ratio is maintained */
+}
+
+
+/* Pygments Python syntax highlighting */
+/* Pygments Python syntax highlighting */
+.highlight .k { color: #007020; font-weight: bold; } /* Keyword */
+.highlight .kc { color: #007020; font-weight: bold; } /* Keyword.Constant */
+.highlight .kd { color: #007020; font-weight: bold; } /* Keyword.Declaration */
+.highlight .kn { color: #4f3fac; font-weight: bold; } /* Keyword.Namespace */
+.highlight .kp { color: #007020; font-weight: bold; } /* Keyword.Pseudo */
+.highlight .kr { color: #007020; font-weight: bold; } /* Keyword.Reserved */
+.highlight .kt { color: #902000; font-weight: bold; } /* Keyword.Type */
+.highlight .s { color: #4070a0; } /* String */
+.highlight .o { color: #666666; } /* Operator */
+.highlight .c { color: #60a0b0; font-style: italic; } /* Comment */
+.highlight .cm { color: #60a0b0; font-style: italic; } /* Comment.Multiline */
+.highlight .cp { color: #bc7a00; } /* Comment.Preproc */
+.highlight .c1 { color: #60a0b0; font-style: italic; } /* Comment.Single */
+.highlight .nb { color: #007020; } /* Name.Builtin */
+.highlight .nd { color: #007020; } /* Name.Decorator */
+.highlight .bp { color: #007020; } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #4070a0; } /* Name.Variable.Class */
+.highlight .vg { color: #4070a0; } /* Name.Variable.Global */
+.highlight .vi { color: #4070a0; } /* Name.Variable.Instance */
+.highlight .il { color: #666666; } /* Literal.Number.Integer.Long */
+.highlight .gh { color: #0000ff; font-weight: bold; } /* Generic.Heading */
+.highlight .gs { font-weight: bold; } /* Generic.Subheading */
+.highlight .gt { color: #0040d0; } /* Generic.Traceback */
+.highlight .sc { color: #4070a0; } /* String.Char */
+.highlight .sd { color: #4070a0; font-style: italic; } /* String.Doc */
+.highlight .si { color: #4070a0; } /* String.Interpol */
+.highlight .sx { color: #4070a0; } /* String.Other */
+.highlight .sr { color: #4070a0; } /* String.Regex */
+.highlight .s1 { color: #4070a0; } /* String.Single */
+.highlight .ss { color: #4070a0; } /* String.Symbol */
+.highlight .m { color: #666666; } /* Literal.Number */
+.highlight .bp { color: #bc7a00; } /* Name.Builtin.Pseudo */
+
+
+/* Custom table styling to resemble a rounded Pandas DataFrame */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border: 0.5px solid;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    
+}
+
+th, td {
+    border: 0.5px solid;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+table th:first-child,
+table td:first-child {
+    border-left: none;
+}
+
+table th:last-child,
+table td:last-child {
+    border-right: 10px;
+}
+
+table tr:first-child th {
+    border-top: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Rounded corners for the table */
+table th:first-child {
+    border-top-left-radius: 8px;
+}
+
+table th:last-child {
+    border-top-right-radius: 8px;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
